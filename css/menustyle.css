@@ -1,7 +1,7 @@
 body {margin:0;font-family:Arial}
 
 .topnav {
-  overflow: hidden;
+  overflow: visible;
   background-color: #333;
   position: fixed;
   top: 0

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test File</title>
+
+
+
+<head>
+   
+    <style>
+        #blink {
+            font-size: 45px;
+            font-weight: bold;
+            font-family: sans-serif;
+            color: rgb(0, 140, 255);
+            transition: 0.4s;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <p id="blink"><IMG SRC="images/RAAF roundel (2).PNG" WIDTH="50" HEIGHT="50" ALT="RAAF Roundel"> TELSTECH Reunion, 1830hrs, 26 May 2023<IMG SRC="images/bolt.PNG" WIDTH="50" HEIGHT="50" ALT="RAAF Roundel"></p>
+    </center>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000);
+    </script>
+</body>
+</body>
+</html>

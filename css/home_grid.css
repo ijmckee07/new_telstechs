@@ -1,0 +1,29 @@
+.main-home {
+    margin-right: 20px;
+    margin-left: 50px;
+    height: 100px; 
+    
+}
+.crest {
+    
+    height: 200;
+    width: auto;
+    align-items: center;
+}
+
+.clocks{
+    height: 200px;
+    border-style: solid;
+    border-radius: 15px; 
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.footer {
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 400px;
+    height: 60px;
+    padding-top: 20px;
+}

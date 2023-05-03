@@ -60,7 +60,7 @@ body {margin:0;font-family:Arial}
   text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover .dropbtn:hover {
   background-color: #555;
   color: white;
   cursor:pointer;

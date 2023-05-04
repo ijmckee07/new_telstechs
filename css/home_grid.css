@@ -1,29 +1,86 @@
-.main-home {
+p{
+    
+}
+
+.main-home{
     margin-right: 20px;
     margin-left: 50px;
     height: 100px; 
-    
 }
-.crest {
-    
+.notices{
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px; 
+}
+.notices-row{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.crest{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 25px;
     height: 200;
     width: auto;
-    align-items: center;
+    text-align: center;
 }
 
 .clocks{
+    font-family: Arial;
     height: 200px;
     border-style: solid;
     border-radius: 15px; 
-    margin-top: 40px;
+    margin-top: 15px;
     margin-right: 20px;
     padding: 30px;
+    font-size: 20px;
+    text-align: center; 
 }
 
-.footer {
+.footer{
     background-color: lightgray;
     margin-top: 20px;
     margin-bottom: 400px;
     height: 60px;
     padding-top: 20px;
+}
+
+.flash-note{
+    height: 200px;
+    border-style: groove;
+    border-color: lightskyblue;
+    border-radius: 30px;
+    border-width: 20px;
+    text-align: center;
+}
+.news-grids{
+    border-style: solid;
+    border-radius: 15px;
+    height: 150px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px; 
+}
+.footer{
+    height: 30px;
+    font-family: Arial;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900; 
+    font-size: 12px; 
+}
+.cooler{
+    font-family: Arial;
+    text-align: center;
+    font-size: 22px; 
+    height: 200px;
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+
 }

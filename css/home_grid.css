@@ -10,7 +10,6 @@ p{
 }
 
 .notices-row{
-    margin-top: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     

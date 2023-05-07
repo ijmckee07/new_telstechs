@@ -1,25 +1,33 @@
 p{
-    height: float;
-    
+        
 }
 
 .main-home{
+    height: float;
     margin-right: 10px;
     margin-left: 10px;
-    
+    color: antiquewhite;
 }
-.notices{
-    border-style: solid;
-    border-radius: 15px;
-    text-align: center;
-    padding: 10px;
-    margin-right: 10px;
-    }
+
 .notices-row{
     margin-top: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    
 }
+.notices{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-color: black;
+    background-color: darkcyan; 
+    font-family: Arial;
+    font-size: 20px; 
+    }
 .crest{
     font-family: Arial;
     font-style: italic;
@@ -28,61 +36,25 @@ p{
     text-align: center;
 }
 
-.clocks{
-    font-family: Arial;
-    border-style: solid;
-    border-radius: 15px; 
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center; 
-}
-
-.footer{
-    background-color: lightgray;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .flash-note{
-    
     border-style: groove;
-    border-color: lightskyblue;
-    border-radius: 20px;
+    border-color: grey;
+    border-radius: 50px;
     border-width: 10px;
     text-align: center;
     margin-bottom: 10px;
     background-color: lightgray;
 }
-.news-grids{
-    border-style: solid;
-    border-radius: 10px;
-    
-    text-align: center;
-    margin-right: 10px;
-    padding: 10px; 
-}
+
 .footer{
-   
+    background-color: lightgray;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     font-family: Arial;
     text-align: center;
     font-style: italic;
     font-weight: 900; 
     font-size: 12px; 
-}
-.cooler{
-    font-family: Arial;
-    text-align: center;
-    font-size: 22px; 
-    
-    border-style: solid;
-    border-radius: 10px;
-    padding-top: 10px;
-    margin-top: 10px;
-    
-
 }

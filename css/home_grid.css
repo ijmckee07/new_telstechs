@@ -20,8 +20,10 @@ p{
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    margin-right: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
     border-color: black;
     background-color: darkcyan; 
     font-family: Arial;
@@ -50,7 +52,7 @@ p{
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
-     border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
     font-family: Arial;
     text-align: center;

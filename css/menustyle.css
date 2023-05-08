@@ -1,10 +1,12 @@
-body {margin:0;font-family:Arial}
-
+body {
+  margin:0;
+  font-family:Arial
+}
 .topnav {
   overflow: visible;
   background-color: #333;
   position: fixed;
-  top: 0
+  top: auto
 }
 
 .topnav a {
@@ -28,7 +30,7 @@ body {margin:0;font-family:Arial}
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .dropdown .dropbtn {

@@ -26,6 +26,6 @@ body {
       font-size: 45px;
       font-weight: bold;
       font-family: sans-serif;
-      color: red;
+      color: rgb(255, 0, 0);
       transition: 0.4s;
     }

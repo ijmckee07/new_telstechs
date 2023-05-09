@@ -19,7 +19,7 @@
   
   </HEAD>
     
-  <BODY BGCOLOR=#398fa2></BODY>
+  
   
   <!--"images/pastel.jpg" BGCOLOR="" TEXT="#000000" LINK="#0000ff" VLINK="#800080" ALINK FONT ="#ff0000"></BODY>-->
   
@@ -28,8 +28,6 @@
   <link rel="stylesheet" href="css/menustyle.css">
   <link rel="stylesheet" href="css/borders.css">
   <link rel="stylesheet" href="css/home_grid.css">
-  
-  
   
   <body>
   <div class="topnav" id="myTopnav">
@@ -74,12 +72,16 @@
     </div> 
     
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  
   </div>
   <br><br><br><br><br><br>
   <div class="main-home">
-    <div class="crest"><IMG SRC="images/logo.gif" WIDTH="184" HEIGHT="198" ALT="RAAF Crest"><br>RAAF TELSTECHs</div>
+    <div class="crest">
+      <IMG class="img-crest" SRC="images/logo.gif"><br>RAAF TELSTECHs</div>
       <div class="notices">
-        <i>An Association of serving and ex-serving Royal Australian Air Force (RAAF) members who served in the Telecommunications Technician (TELSTECH) mustering between 1953 and 1989.</i>
+        <i>An Association of Royal Australian Air Force (RAAF) members who served in the Telecommunications Technician (TELSTECH) mustering between 1953 and 1989.
+
+          </i>
       </div><div class="flash-note">
         <p id="blink"><IMG SRC="images/RAAF roundel (2).PNG" WIDTH="30" HEIGHT="30" ALT="RAAF Roundel">TELSTECH Reunion,
         1830hrs, 26 May 2023 <IMG SRC="images/bolt.PNG" WIDTH="25" HEIGHT="30" ALT="RAAF Roundel"></p>
@@ -94,12 +96,12 @@
       <div class="notices-row"> 
         <div class="notices">
           Seeking nominations for<br><b><i>'Association Treasurer'</i></b><br>
-          Contact <A HREF="mailto:nippermc@hotmail.com">Nipper</A> for information
+          Contact <A HREF="mailto:nippermc@hotmail.com?subject=EOI Treasurer">Nipper</A> for information
         </div>
         <div class="notices">
           See us on Facebook<br>                
-          <A HREF="https://www.facebook.com/groups/878279760153692" target="_blank"><IMG SRC="images/fb2_logo.GIF" WIDTH="40"
-          HEIGHT="40" ALT=""></A>
+          <A HREF="https://www.facebook.com/groups/878279760153692" target="_blank"><IMG SRC="images/fb2_logo.GIF" WIDTH="30"
+          HEIGHT="30" ALT=""></A>
         </div>
         <div class="notices">
           We are now an Incorporated Association!
@@ -111,7 +113,7 @@
       <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; ">
         <div class="notices">
           The Next <A HREF="documents/2023_Bris_Re-union_Flyer.pdf" target="_blank">
-          Brisbane Reunion</A> is 26 May 2023</FONT><BR>
+          Brisbane Reunion</A> is 26 May 2023<BR>
             <script>
               function myFunctionBris() {
                 var y = document.createElement("SCRIPT");
@@ -152,15 +154,16 @@
                   }
                 }, 1000);
               </script>
-            <button onclick="myFunctionBris()">Brisbane Reunion details</button>
+            <button class="buttons" onclick="myFunctionBris()">Brisbane Reunion details</button>
           
             <A HREF="https://www.facebook.com/events/516706720438089?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
-              target="_blank"><IMG SRC="images/facebook_logo.JPG" WIDTH="40" HEIGHT="40" ALT=""></A>
+              target="_blank"> 
+              <IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
             <p>
         </div>
         <div class="notices">
-          The <b>Werribee</b>
-          </A> Get-Together is in:</FONT><BR>
+          The next <b>Werribee</b>
+          </A> Get-Together is planned in:<BR>
           
             <script>
               function myFunctionwerribee() {
@@ -202,9 +205,11 @@
                   }
                 }, 1000);
               </script>
-              <button onclick="myFunctionwerribee()">Werribee Get-Together details</button>
+              <button class="buttons" onclick="myFunctionwerribee()">Werribee Get-Together details</button>
               <A HREF="https://www.facebook.com/events/883477909633454?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
-                target="_blank"><IMG SRC="images/facebook_logo.JPG" WIDTH="40" HEIGHT="40" ALT=""></A>
+                target="_blank">
+                
+              <IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
               <br>
         </div>
         
@@ -246,7 +251,7 @@
   
   
       <div class="notices">
-        <IMG SRC="images/cooler_wrap.JPG" WIDTH="300" HEIGHT="200" ALT="Cooler"><br>
+        <IMG class="img-cooler" SRC="images/cooler_wrap.JPG" ALT="Cooler"><br>
         Get your limited edition RAAF TELSTECH stubbie cooler
         <A HREF="cooler.html"> here</A><br>
       </div> 

@@ -1,13 +1,16 @@
 .gallery {
     margin: 10px 50px;
+    
+    
 }
 .gallery img {
     transition: 1s;
     padding: 5px;
     width: 100px;
+    justify-content: center;
 }
 .gallery img:hover {
     filter: grayscale(100%);
-    transform: scale(1.2);
+    transform: scale(1.3);
 
 }

@@ -2,12 +2,16 @@ body {
   margin:0;
   font-family:Arial;
   background-color: #398fa2;
+  height: 2000px;
 }
 .topnav {
   overflow: visible;
   background-color: #333;
   position: fixed;
-  top: auto
+  top: auto;
+  left: 0;
+  right: 0;
+
 }
 
 .topnav a {

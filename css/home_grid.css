@@ -3,6 +3,7 @@
     height: float;
     padding: 10px;
     color: antiquewhite;
+    text-align: center;
 }
 .crest{
     margin-top: 130px;

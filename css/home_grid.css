@@ -1,3 +1,8 @@
+.body1{
+    height: 3000px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
 .main-home{
     background-color: #398fa2;
     height: float;
@@ -97,5 +102,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px;
-     text-align: center;
+    text-align: center;
+}
+.sidebar{
+    background-color: gray;
+    color: white;
+    position: fixed;
+    border-radius: 10px;
+    left: 0;
+    bottom: 15px;
+    top: 105px;
+    margin-right: 100px;
+    width: 72px; 
 }

@@ -42,6 +42,8 @@
 .notices-row{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    color: white;
+    text-align: center;
 }
 .notices{
     border-style: solid;

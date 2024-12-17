@@ -58,7 +58,7 @@
           <p>
         </div>-->
       
-      <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 3fr 1fr; ">
+      <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr 1fr; ">
 
         <div class="notices">
           RMC Duntroon<br>Sergeants Mess<br>
@@ -124,7 +124,7 @@
         </div>
         </div>
 
-        <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr; ">
+        <div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; ">
         <div class="notices">
           The Next<b> Brisbane Reunion</b> is planned<br>for<br>30 May 2025<BR>
           <script>
@@ -173,6 +173,59 @@
             <IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
           <p>
         </div>
+
+        <div class="notices">
+          <b>Cannington RSL</b> 'Catch Up' planned<br>for<br>3 May 2025<BR>
+          <script>
+            function myFunctionWA() {
+              var y = document.createElement("SCRIPT");
+              var u = document.createTextNode("alert('Cannington RSL, 162 Wharf St, Cannington WA 6107, Saturday 3 May 2025, 1430 ')");
+              y.appendChild(u);
+              document.body.appendChild(y);
+            }
+          </script>
+          <p id="timer3"></p>
+          <script>
+            // Set the date we're counting down to
+            var countDownDate3 = new Date("May 3, 2025 14:00:00").getTime();
+
+            // Update the count down every 1 second
+            var s = setInterval(function () {
+
+              // Get today's date and time
+              var now = new Date().getTime();
+
+              // Find the distance between now and the count down date
+              var distance = countDownDate3 - now;
+
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Output the result in an element with id="timer"
+              document.getElementById("timer3").innerHTML = days + " days, " + hours + " hours, "
+                + minutes + " minutes "; // + seconds + " seconds... ";
+
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(s);
+                document.getElementById("timer3").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+          </script>
+          <button class="buttons" onclick="myFunctionWA()">Cannington Catch Up</button>
+        
+          <A HREF="https://www.facebook.com/events/516706720438089?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22your_upcoming_events_unit%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+            target="_blank">
+            <IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
+          <p>
+        </div>
+
+ 
+ 
+        
         </div>
         
     </div>
@@ -267,7 +320,7 @@
 </div>
 
 <div class="footer">
-        Updated &copy Sep 2024 IJM<br />
+        Updated &copy Dec 2024 IJM<br />
         <a href="index.html "> Home</a> | <a href="about_us.html">About Us</a> | <a href="committee.html">Contact</a>
 </div>
 <center>     

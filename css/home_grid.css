@@ -180,3 +180,9 @@
     margin-right: 100px;
     width: 72px; 
 }
+.reports{
+    color: white;
+    border-style:groove;
+    margin: 10;
+    padding: 5%;
+}

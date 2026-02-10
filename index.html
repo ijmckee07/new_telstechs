@@ -47,56 +47,6 @@
 
 							<div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr;">
 								<div class="notices">
-									<b>The Adelaide Get-Together</b><br>will be held<BR>7 February 2026<p>
-										<script>
-											function myFunction2026() {
-												var y = document.createElement("SCRIPT");
-												var u = document.createTextNode("alert('The Adelaide Get-Together location is Henley and Grange RSL, 138 North St, Henley Beach SA from 1630-2030. ')");
-												y.appendChild(u);
-												document.body.appendChild(y);
-											}
-										</script>
-									<p id="timer1"></p>
-									<script>
-										// Set the date we're counting down to
-										var countDownDate1 = new Date("Feb 07, 2026 16:30:00").getTime();
-
-										// Update the count down every 1 second
-										var s = setInterval(function () {
-
-											// Get today's date and time
-											var now = new Date().getTime();
-
-											// Find the distance between now and the count down date
-											var distance = countDownDate1 - now;
-
-											// Time calculations for days, hours, minutes and seconds
-											var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-											var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-											var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-											// var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-											// Output the result in an element with id="timer"
-											document.getElementById("timer1").innerHTML = days + " days, " + hours + " hours, "
-												+ minutes + " minutes "; // + seconds + " seconds... ";
-
-											// If the count down is over, write some text 
-											if (distance < 0) {
-												clearInterval(s);
-												document.getElementById("timer1").innerHTML = "EXPIRED";
-											}
-										}, 1000);
-									</script>
-									<button class="buttons" onclick="myFunction2026()">2026 Adelaide GT details</button>
-									<p><br>
-									<A HREF="https://www.facebook.com/events/2233398463740719?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22group%22%7D]%7D"
-										target="_blank">
-										<IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
-									<p>
-									</div>
-
-
-									<div class="notices">
 										<b>Brisbane Reunion</b> <br>will be held<br>29 May 2026<p>
 										<script>
 											function myFunctionBris() {
@@ -144,7 +94,52 @@
 												target="_blank">
 												<IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
 										</p>
+
 									</div>
+
+									<div class="notices">
+										<b>The Newcastle Get-Together</b><br>will be held<BR>6 February 2027<p>
+										<script>
+										function myFunction2026() {
+										var y = document.createElement("SCRIPT");
+										var u = document.createTextNode("alert('The Newcastle Get-Together location is TBA, 1400-1800. ')");
+										y.appendChild(u);
+										document.body.appendChild(y);
+										}
+										</script>
+										<p id="timer1"></p>
+										<script>
+										// Set the date we're counting down to
+										var countDownDate1 = new Date("Feb 06, 2027 14:00:00").getTime();
+										// Update the count down every 1 second
+										var s = setInterval(function () {
+										// Get today's date and time
+										var now = new Date().getTime();
+										// Find the distance between now and the count down date
+										var distance = countDownDate1 - now;
+										// Time calculations for days, hours, minutes and seconds
+										var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+										var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+										var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+										// var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+										// Output the result in an element with id="timer"
+										document.getElementById("timer1").innerHTML = days + " days, " + hours + " hours, "
+										+ minutes + " minutes "; // + seconds + " seconds... ";
+										// If the count down is over, write some text 
+										if (distance < 0) {
+										clearInterval(s);
+										document.getElementById("timer1").innerHTML = "EXPIRED";
+										}
+										}, 1000);
+										</script>
+										<button class="buttons" onclick="myFunction2026()">2027 Newcastle GT details</button>
+										<p><br>
+										<A HREF="https://www.facebook.com/events/2233398463740719?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22group%22%7D]%7D"
+										target="_blank">
+										<IMG SRC="images/fb2_logo.GIF" WIDTH="30" HEIGHT="30" ALT=""></A>
+										<p>
+										</div>
+
 									</div>
 
 							<!-- Section -->

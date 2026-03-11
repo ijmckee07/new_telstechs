@@ -47,11 +47,12 @@
 
 							<div style="margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr;">
 								<div class="notices">
-										<b>Brisbane Reunion</b> <br>date may change<br>due to venue renovations<br>May-June 2026<p>
+										<b>Brisbane Reunion</b><br>will be held<br>29 May 2026<p>
 										<script>
+	
 											function myFunctionBris() {
 												var y = document.createElement("SCRIPT");
-												var u = document.createTextNode("alert('The Paddo Tavern is undertaking renovations and the reunion will not be held there this year. The Djinnang reunion has also changed venues. ')");
+												var u = document.createTextNode("alert('The Paddo Tavern, 18:30 till late. The Djinnang reunion will be at the Stock Exchange in Brisbane City 30th May. ')");
 												y.appendChild(u);
 												document.body.appendChild(y);
 											}
@@ -59,7 +60,7 @@
 										<p id="timer2"></p>
 										<script>
 											// Set the date we're counting down to
-											var countDownDate2 = new Date("June 12, 2026 18:30:00").getTime();
+											var countDownDate2 = new Date("May 29, 2026 18:30:00").getTime();
 
 											// Update the count down every 1 second
 											var s = setInterval(function () {
@@ -77,7 +78,7 @@
 												// var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 												// Output the result in an element with id="timer"
-												document.getElementById("timer2").innerHTML = days + "~" + " days, " + hours + " hours, "
+												document.getElementById("timer2").innerHTML = days + " days, " + hours + " hours, "
 													+ minutes + " minutes "; // + seconds + " seconds... ";
 
 												// If the count down is over, write some text 
